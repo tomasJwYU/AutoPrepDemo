@@ -36,7 +36,7 @@ The corresponding TTS system can achieve up to 0.68 in-domain speaker similarity
 
 #### Original long audio
 
-[![Source Video Link](https://img.youtube.com/vi/_HJVhC80vIE/0.jpg)]((https://www.youtube.com/embed/_HJVhC80vIE?start=938))
+[![Source Video Link](https://img.youtube.com/vi/_HJVhC80vIE/0.jpg)](https://www.youtube.com/embed/_HJVhC80vIE?start=938)
 
 #### Part of the speech segments and speaker labels
 
