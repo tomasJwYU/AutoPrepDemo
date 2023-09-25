@@ -78,33 +78,29 @@ The corresponding TTS system can achieve up to 0.68 in-domain speaker similarity
 
 ## Synthetic audios of WenetSpeech speakers
 
-| Speaker prompt (GT) | Synthetic speech | Content of the synthetic Speech |
-| :------------------: | :------------: | :-----------------------: |
-|  <audio src="static/samples/WenetSpeech/synthetic/prompt_0_0.wav" controls preload></audio> | <audio src="static/samples/WenetSpeech/synthetic/synthetic_0_0.wav" controls preload></audio> | 九月的这个刺客，团战基本上能盯着你的后排切，他在队伍里也是总击杀最多的人 |
-|  <audio src="static/samples/WenetSpeech/synthetic/prompt_0_1.wav" controls preload></audio> | <audio src="static/samples/WenetSpeech/synthetic/synthetic_0_1.wav" controls preload></audio> | 红方这只队伍的关键点在打野身上，给他拿到一手镜也能更好的带动队伍节奏 |
-|  <audio src="static/samples/WenetSpeech/synthetic/prompt_1_0.wav" controls preload></audio> | <audio src="static/samples/WenetSpeech/synthetic/synthetic_1_0.wav" controls preload></audio> | 九月的这个刺客，团战基本上能盯着你的后排切，他在队伍里也是总击杀最多的人 |
-|  <audio src="static/samples/WenetSpeech/synthetic/prompt_1_1.wav" controls preload></audio> | <audio src="static/samples/WenetSpeech/synthetic/synthetic_1_1.wav" controls preload></audio> | 这力量在随后几年多次保护她，但也引来了觊觎之人。 |
-|  <audio src="static/samples/WenetSpeech/synthetic/prompt_2_0.wav" controls preload></audio> | <audio src="static/samples/WenetSpeech/synthetic/synthetic_2_0.wav" controls preload></audio> | 这个镜还是怕对方九月选手拿到的，东方镜胜率有67%，确实不能放 |
-|  <audio src="static/samples/WenetSpeech/synthetic/prompt_2_1.wav" controls preload></audio> | <audio src="static/samples/WenetSpeech/synthetic/synthetic_2_1.wav" controls preload></audio> | 九月拿到了自己的常用英雄，身为队伍的核心，相信镜也将会成为场上的焦点 |
-|  <audio src="static/samples/WenetSpeech/synthetic/prompt_3_0.wav" controls preload></audio> | <audio src="static/samples/WenetSpeech/synthetic/synthetic_3_0.wav" controls preload></audio> | 西施的童年并非无忧无虑，自小便学会了各种谋生的小把戏。 |
-|  <audio src="static/samples/WenetSpeech/synthetic/prompt_3_1.wav" controls preload></audio> | <audio src="static/samples/WenetSpeech/synthetic/synthetic_3_1.wav" controls preload></audio> | 一边学习魔道课程，一边参与各种大奖赛事， |
-|  <audio src="static/samples/WenetSpeech/synthetic/prompt_4_0.wav" controls preload></audio> | <audio src="static/samples/WenetSpeech/synthetic/synthetic_4_0.wav" controls preload></audio> | 九月的这个刺客，团战基本上能盯着你的后排切，他在队伍里也是总击杀最多的人 |
-|  <audio src="static/samples/WenetSpeech/synthetic/prompt_4_1.wav" controls preload></audio> | <audio src="static/samples/WenetSpeech/synthetic/synthetic_4_1.wav" controls preload></audio> | 西施的童年并非无忧无虑，自小便学会了各种谋生的小把戏。 |
-|  <audio src="static/samples/WenetSpeech/synthetic/prompt_5_0.wav" controls preload></audio> | <audio src="static/samples/WenetSpeech/synthetic/synthetic_5_0.wav" controls preload></audio> | 不明真相的西施被庄周所救，隐姓埋名来到稷下。 |
-|  <audio src="static/samples/WenetSpeech/synthetic/prompt_5_1.wav" controls preload></audio> | <audio src="static/samples/WenetSpeech/synthetic/synthetic_5_1.wav" controls preload></audio> | 九月拿到了自己的常用英雄，身为队伍的核心，相信镜也将会成为场上的焦点 |
-|  <audio src="static/samples/WenetSpeech/synthetic/prompt_6_0.wav" controls preload></audio> | <audio src="static/samples/WenetSpeech/synthetic/synthetic_6_0.wav" controls preload></audio> | 这个镜还是怕对方九月选手拿到的，东方镜胜率有67%，确实不能放 |
-|  <audio src="static/samples/WenetSpeech/synthetic/prompt_6_1.wav" controls preload></audio> | <audio src="static/samples/WenetSpeech/synthetic/synthetic_6_1.wav" controls preload></audio> | 不明真相的西施被庄周所救，隐姓埋名来到稷下。 |
+| Speaker prompt (GT) | Synthetic speech (Trained on data without enhancement) | Synthetic speech (Trained on data with enhancement) | Content of the synthetic Speech |
+| :------------------: | :------------: | :------------: | :-----------------------: |
+|  <audio src="static/samples/WenetSpeech/synthetic/prompt_0_0.wav" controls preload></audio> | <audio src="static/samples/WenetSpeech/synthetic/synthetic_noisy_0_0.wav" controls preload></audio> | <audio src="static/samples/WenetSpeech/synthetic/synthetic_0_0.wav" controls preload></audio> | 九月的这个刺客，团战基本上能盯着你的后排切，他在队伍里也是总击杀最多的人 |
+|  <audio src="static/samples/WenetSpeech/synthetic/prompt_0_1.wav" controls preload></audio> | <audio src="static/samples/WenetSpeech/synthetic/synthetic_noisy_0_1.wav" controls preload></audio> | <audio src="static/samples/WenetSpeech/synthetic/synthetic_0_1.wav" controls preload></audio> | 红方这只队伍的关键点在打野身上，给他拿到一手镜也能更好的带动队伍节奏 |
+|  <audio src="static/samples/WenetSpeech/synthetic/prompt_1_0.wav" controls preload></audio> | <audio src="static/samples/WenetSpeech/synthetic/synthetic_noisy_1_0.wav" controls preload></audio> | <audio src="static/samples/WenetSpeech/synthetic/synthetic_1_0.wav" controls preload></audio> | 九月的这个刺客，团战基本上能盯着你的后排切，他在队伍里也是总击杀最多的人 |
+|  <audio src="static/samples/WenetSpeech/synthetic/prompt_1_1.wav" controls preload></audio> | <audio src="static/samples/WenetSpeech/synthetic/synthetic_noisy_1_1.wav" controls preload></audio> | <audio src="static/samples/WenetSpeech/synthetic/synthetic_1_1.wav" controls preload></audio> | 这力量在随后几年多次保护她，但也引来了觊觎之人。 |
+|  <audio src="static/samples/WenetSpeech/synthetic/prompt_2_0.wav" controls preload></audio> | <audio src="static/samples/WenetSpeech/synthetic/synthetic_noisy_2_0.wav" controls preload></audio> | <audio src="static/samples/WenetSpeech/synthetic/synthetic_2_0.wav" controls preload></audio> | 这个镜还是怕对方九月选手拿到的，东方镜胜率有67%，确实不能放 |
+|  <audio src="static/samples/WenetSpeech/synthetic/prompt_2_1.wav" controls preload></audio> | <audio src="static/samples/WenetSpeech/synthetic/synthetic_noisy_2_1.wav" controls preload></audio> | <audio src="static/samples/WenetSpeech/synthetic/synthetic_2_1.wav" controls preload></audio> | 九月拿到了自己的常用英雄，身为队伍的核心，相信镜也将会成为场上的焦点 |
+|  <audio src="static/samples/WenetSpeech/synthetic/prompt_3_0.wav" controls preload></audio> | <audio src="static/samples/WenetSpeech/synthetic/synthetic_noisy_3_0.wav" controls preload></audio> | <audio src="static/samples/WenetSpeech/synthetic/synthetic_3_0.wav" controls preload></audio> | 西施的童年并非无忧无虑，自小便学会了各种谋生的小把戏。 |
+|  <audio src="static/samples/WenetSpeech/synthetic/prompt_3_1.wav" controls preload></audio> | <audio src="static/samples/WenetSpeech/synthetic/synthetic_noisy_3_1.wav" controls preload></audio> | <audio src="static/samples/WenetSpeech/synthetic/synthetic_3_1.wav" controls preload></audio> | 一边学习魔道课程，一边参与各种大奖赛事， |
+|  <audio src="static/samples/WenetSpeech/synthetic/prompt_4_0.wav" controls preload></audio> | <audio src="static/samples/WenetSpeech/synthetic/synthetic_noisy_4_0.wav" controls preload></audio> | <audio src="static/samples/WenetSpeech/synthetic/synthetic_4_0.wav" controls preload></audio> | 九月的这个刺客，团战基本上能盯着你的后排切，他在队伍里也是总击杀最多的人 |
+|  <audio src="static/samples/WenetSpeech/synthetic/prompt_4_1.wav" controls preload></audio> | <audio src="static/samples/WenetSpeech/synthetic/synthetic_noisy_4_1.wav" controls preload></audio> | <audio src="static/samples/WenetSpeech/synthetic/synthetic_4_1.wav" controls preload></audio> | 西施的童年并非无忧无虑，自小便学会了各种谋生的小把戏。 |
+|  <audio src="static/samples/WenetSpeech/synthetic/prompt_5_0.wav" controls preload></audio> | <audio src="static/samples/WenetSpeech/synthetic/synthetic_noisy_5_0.wav" controls preload></audio> | <audio src="static/samples/WenetSpeech/synthetic/synthetic_5_0.wav" controls preload></audio> | 不明真相的西施被庄周所救，隐姓埋名来到稷下。 |
+|  <audio src="static/samples/WenetSpeech/synthetic/prompt_5_1.wav" controls preload></audio> | <audio src="static/samples/WenetSpeech/synthetic/synthetic_noisy_5_1.wav" controls preload></audio> | <audio src="static/samples/WenetSpeech/synthetic/synthetic_5_1.wav" controls preload></audio> | 九月拿到了自己的常用英雄，身为队伍的核心，相信镜也将会成为场上的焦点 |
+|  <audio src="static/samples/WenetSpeech/synthetic/prompt_6_0.wav" controls preload></audio> | <audio src="static/samples/WenetSpeech/synthetic/synthetic_noisy_6_0.wav" controls preload></audio> | <audio src="static/samples/WenetSpeech/synthetic/synthetic_6_0.wav" controls preload></audio> | 这个镜还是怕对方九月选手拿到的，东方镜胜率有67%，确实不能放 |
+|  <audio src="static/samples/WenetSpeech/synthetic/prompt_6_1.wav" controls preload></audio> | <audio src="static/samples/WenetSpeech/synthetic/synthetic_noisy_6_1.wav" controls preload></audio> | <audio src="static/samples/WenetSpeech/synthetic/synthetic_6_1.wav" controls preload></audio> | 不明真相的西施被庄周所救，隐姓埋名来到稷下。 |
 
 
 ## Synthetic audios of AutoPrepWild speakers
 
-| Synthetic speech | Content of the synthetic Speech |
-| :------------: | :-----------------------: |
-| <audio src="static/samples/AutoPrepWild/synthetic/synthetic_0_0.wav" controls preload></audio> | 我是谢顶男议员，尸位素餐的中年高位者，贵族出身，惯性嘲讽年轻人。 |
-| <audio src="static/samples/AutoPrepWild/synthetic/synthetic_0_1.wav" controls preload></audio> | 纱的力量来自遥远神秘的南洲，和她的家族息息相关。 |
-| <audio src="static/samples/AutoPrepWild/synthetic/synthetic_1_0.wav" controls preload></audio> | 红方的法王很恐怖的存在，在本赛事里一共斩获了8个人头，操作真的是天花板级别的了 |
-| <audio src="static/samples/AutoPrepWild/synthetic/synthetic_1_1.wav" controls preload></audio> | 九月拿到了自己的常用英雄，身为队伍的核心，相信镜也将会成为场上的焦点 |
-| <audio src="static/samples/AutoPrepWild/synthetic/synthetic_2_0.wav" controls preload></audio> | 财联社9月22日电，洲际油气触及跌停，新潮能源、海默科技、蓝焰控股、石化油服、潜能恒信等跌幅居前。 |
-| <audio src="static/samples/AutoPrepWild/synthetic/synthetic_2_1.wav" controls preload></audio> | 我是波克机器人，作为一名男议员，小心翼翼的政治家，害怕变革，倾向于选择保守的策略，共有3种情绪，>包括高兴，兴奋和不耐烦。 |
-| <audio src="static/samples/AutoPrepWild/synthetic/synthetic_3_0.wav" controls preload></audio> | 我是杰塔利斯学员，人设特点是机械天才，志向宏大，有勇气、有谋略，共有四种情绪，包括高兴，悲伤，愤怒和急迫，根据情绪强度分为四个等级。 |
-| <audio src="static/samples/AutoPrepWild/synthetic/synthetic_3_1.wav" controls preload></audio> | 我是波克机器人，作为一名男议员，小心翼翼的政治家，害怕变革，倾向于选择保守的策略，共有3种情绪，包括高兴，兴奋和不耐烦。 |
+| Speaker | Synthetic speech | Content of the synthetic Speech |
+| :-----: | :------------: | :-----------------------: |
+| 1 | <audio src="static/samples/AutoPrepWild/synthetic/synthetic_2_0.wav" controls preload></audio> | 财联社9月22日电，洲际油气触及跌停，新潮能源、海默科技、蓝焰控股、石化油服、潜能恒信等跌幅居前。 |
+| 1 | <audio src="static/samples/AutoPrepWild/synthetic/synthetic_2_1.wav" controls preload></audio> | 我是波克机器人，作为一名男议员，小心翼翼的政治家，害怕变革，倾向于选择保守的策略，共有3种情绪，>包括高兴，兴奋和不耐烦。 |
+| 2 | <audio src="static/samples/AutoPrepWild/synthetic/synthetic_0_0.wav" controls preload></audio> | 我是谢顶男议员，尸位素餐的中年高位者，贵族出身，惯性嘲讽年轻人。 |
+| 2 | <audio src="static/samples/AutoPrepWild/synthetic/synthetic_0_1.wav" controls preload></audio> | 纱的力量来自遥远神秘的南洲，和她的家族息息相关。 |
