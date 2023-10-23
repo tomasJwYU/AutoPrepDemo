@@ -30,6 +30,12 @@ The corresponding TTS system can achieve up to 0.68 in-domain speaker similarity
 - **AutoPrepWild**: The AutoPrepWild corpus is a collection of in-the-wild speech data that we gathered from publicly available podcasts, video recordings, and audiobooks, without segmentation, speaker labels, or text transcriptions. The original dataset consists of 680 unprocessed long audio recordings, with a total duration of approximately 498 hours. Unlike the WenetSpeech dataset, the sample rate of the AutoPrepWild corpus is either 24kHz or 44.1kHz.
 - **WenetSpeech**: [WenetSpeech](https://github.com/wenet-e2e/WenetSpeech) is a widely used open-source ASR corpus, that comprises over 10,000 hours of Mandarin 16kHz speech data from diverse sources such as YouTube and Podcasts.Being derived from real-world data, WenetSpeech covers an extensive variety of acoustic conditions and includes a substantial number of speakers,  making it highly suitable for the application scenarios of AutoPrep.
 
+## Open access processing results of AutoPrep
+
+| Dataset | Downloadable processing results | Content format |
+| :-----: | :----------------: | :------------: |
+| WenetSpeech | [Automatic speaker assignment](https://drive.google.com/file/d/1UaGuyT1wcKc5g9vRdfIBvLoDRcuOxBlX/view?usp=drive_link) | `<audio_segment_ID> <long_audio_ID>_<speakerID>` |
+
 ## Processing results on AutoPrepWild
 
 ### Examples of processing results
