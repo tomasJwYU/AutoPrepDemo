@@ -35,6 +35,7 @@ The corresponding TTS system can achieve up to 0.68 in-domain speaker similarity
 | Dataset | Downloadable processing results | Content format |
 | :-----: | :----------------: | :------------: |
 | WenetSpeech | [Automatic speaker assignment](https://drive.google.com/file/d/1UaGuyT1wcKc5g9vRdfIBvLoDRcuOxBlX/view?usp=drive_link) | `<audio_segment_ID> <long_audio_ID>_<speakerID>` |
+| GigaSpeech | [Automatic speaker assignment](https://drive.google.com/file/d/13g_EayW2Oza72vsxh7uNoxJHRTqlKbVI/view?usp=drive_link) | `<audio_segment_ID> <long_audio_ID>_<speakerID> <cos_sim>` |
 
 ## Processing results on AutoPrepWild
 
